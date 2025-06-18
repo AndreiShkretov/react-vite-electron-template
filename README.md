@@ -8,6 +8,7 @@
 
 ## 📁 Project Structure
 
+.
 ├── src/ # Frontend (React) source code with FSD structure
 ├── electron/ # Electron main process code
 ├── dist/ # Built frontend (Vite output)
@@ -18,16 +19,16 @@
 
 ## Project Stack
 
-| Technology        | Purpose                              |
-|-------------------|------------------------------------|
-| React             | UI Library                         |
-| Redux Toolkit     | State Management                   |
+| Technology        | Purpose                           |
+| ----------------- | --------------------------------- |
+| React             | UI Library                        |
+| Redux Toolkit     | State Management                  |
 | React Router      | Routing                           |
-| Styled-components | CSS-in-JS styling                  |
-| TypeScript        | Static typing                      |
-| Vite              | Dev server and build tool          |
-| Electron          | Desktop app runtime                |
-| Electron-builder  | Packaging and building installers  |
+| Styled-components | CSS-in-JS styling                 |
+| TypeScript        | Static typing                     |
+| Vite              | Dev server and build tool         |
+| Electron          | Desktop app runtime               |
+| Electron-builder  | Packaging and building installers |
 
 ## Setup Instructions
 
@@ -101,4 +102,3 @@ The packaged files and installers will be generated according to your electron-b
 - Electron main process and packaged app: `dist-electron/`
 
 ---
-
