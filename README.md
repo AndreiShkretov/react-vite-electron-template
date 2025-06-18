@@ -6,16 +6,7 @@
 - 🧰 TypeScript + ESLint + Styled-components
 - 📦 Packaging via electron-builder
 
-## 📁 Project Structure
-
-.
-├── src/ # Frontend (React) source code with FSD structure
-├── electron/ # Electron main process code
-├── dist/ # Built frontend (Vite output)
-├── dist-electron/ # Built Electron main process
-├── assets/ # Icons and assets for packaging
-├── package.json
-└── vite.config.ts
+<pre> <code>## 📁 Project Structure ``` . ├── src/ # Frontend (React) source code with FSD structure ├── electron/ # Electron main process code ├── dist/ # Built frontend (Vite output) ├── dist-electron/ # Built Electron main process ├── assets/ # Icons and assets for packaging ├── package.json └── vite.config.ts ``` </code> </pre>
 
 ## Project Stack
 
